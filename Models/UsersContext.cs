@@ -9,6 +9,7 @@ namespace WebAPI.Models
     
     public class UsersContext : DbContext
     {
+    //adding UsersContext database context
 
 
         public UsersContext(DbContextOptions<UsersContext> options)
