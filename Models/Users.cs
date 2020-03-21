@@ -7,6 +7,7 @@ namespace WebAPI.Models
 {
     public class Users
     {
+        //Define variables in "Users" section
         public long Id { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
