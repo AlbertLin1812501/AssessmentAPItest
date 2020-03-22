@@ -4,13 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace WebAPI.model 
-{ 
-public class ItemCon : DbContext
+namespace WebAPI.Models
 {
-	public ItemCon(DbContextOptions<UsersContext> options) : base(options)
-    {
-	}
+	public class ItemContext : DbContext
+	{
+		public ItemContext(DbContextOptions<ItemContext> options) : base(options)
+		{
+		}
 		public DbSet<Item> Item { get; set; }
 	}
 }

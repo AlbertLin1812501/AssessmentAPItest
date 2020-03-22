@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebAPI.model
+namespace WebAPI.Models
 {
-	public class Item
-	{
+    public class Item
+    {
         public double ItemId { get; set; }
         public double ItemPrices { get; set; }
         public string ItemDescription { get; set; }
