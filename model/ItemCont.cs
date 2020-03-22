@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace WebAPI.Models 
+namespace WebAPI.model 
 { 
 public class ItemCon : DbContext
 {
