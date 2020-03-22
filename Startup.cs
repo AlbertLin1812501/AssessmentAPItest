@@ -30,7 +30,8 @@ namespace WebAPI
             //We register our database context here
             services.AddDbContext<UsersContext>(opt =>
                opt.UseInMemoryDatabase("UserList"));
-            
+            services.AddDbContext<ItemContext>(opt =>
+               opt.UseInMemoryDatabase("ItemList"));
             services.AddControllers();
         }
 
