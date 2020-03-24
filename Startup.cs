@@ -32,6 +32,8 @@ namespace WebAPI
                opt.UseInMemoryDatabase("UserList"));
             services.AddDbContext<ItemContext>(opt =>
                opt.UseInMemoryDatabase("ItemList"));
+            services.AddDbContext<PurchasedItemContext>(opt =>
+               opt.UseInMemoryDatabase("PurchasedItemList"));
             services.AddControllers();
         }
 
